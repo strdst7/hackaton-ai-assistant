@@ -1,0 +1,119 @@
+
+---
+
+# Project.md — Personal App Development Roadmap
+
+## 🎯 Vision
+- Build sustainable, user-focused apps with strong architecture.  
+- Balance **frontend**, **backend**, **DevOps**, and **AI systems** skills to become a full-stack AI systems engineer.  
+
+---
+
+## 🛠️ Core Skills Roadmap
+- **Frontend Development**: HTML, CSS, JavaScript ES6+, React, Next.js, TailwindCSS  
+- **Backend Development**: Node.js, Express, PostgreSQL, GraphQL, authentication  
+- **DevOps & Cloud**: Docker, Terraform, CI/CD, monitoring  
+- **AI Systems**: LLM APIs, RAG pipelines, multi-agent workflows, rate-limit management  
+
+---
+
+## 📂 Repo Layout
+```
+/apps-roadmap
+  ├── sprints/
+  │   ├── week1-2-frontend.md
+  │   ├── week3-4-backend.md
+  │   ├── week5-6-devops.md
+  │   ├── week7-8-ai.md
+  │   ├── week9-10-monitoring.md
+  │   └── week11-12-capstone.md
+  └── project.md
+```
+
+---
+
+## 📅 Weekly Sprint Plan (12 Weeks)
+
+### Week 1–2: **Frontend Foundations**
+- Goal: Ship portfolio skeleton with Next.js + Tailwind  
+- Daily checkpoints:  
+  - Day 1: Setup Node.js + Next.js starter, GitHub repo  
+  - Day 2: CSS selectors, flexbox layout  
+  - Day 3: JavaScript ES6 basics, array methods  
+  - Day 4: Next.js routing, Tailwind setup  
+  - Day 5: Responsive design, deploy to Vercel  
+  - Day 6: Accessibility + Lighthouse check  
+  - Day 7: Reflection in `project.md`  
+
+---
+
+### Week 3–4: **Backend Basics**
+- Goal: Build **Task Manager API**  
+- Daily checkpoints:  
+  - Day 1: Setup Express server, `/tasks` route  
+  - Day 2: Connect PostgreSQL with Drizzle ORM  
+  - Day 3: CRUD endpoints, test with Postman  
+  - Day 4: JWT authentication  
+  - Day 5: Error handling, validation, unit tests  
+  - Day 6: Dockerize backend  
+  - Day 7: Reflection in `project.md`  
+
+---
+
+### Week 5–6: **DevOps Setup**
+- Goal: Dockerize and deploy apps, provision infra with Terraform  
+- Daily checkpoints:  
+  - Dockerize frontend + backend  
+  - Deploy to Vercel & VPS  
+  - Provision GCP VM + HA VPN with Terraform  
+  - Reflection in `project.md`  
+
+---
+
+### Week 7–8: **AI Systems Integration**
+- Goal: Connect LLM APIs, build **RAG pipeline**  
+- Daily checkpoints:  
+  - Connect GPT/Claude APIs  
+  - Build vector DB + retrieval  
+  - Experiment with multi-agent orchestration  
+  - Reflection in `project.md`  
+
+---
+
+### Week 9–10: **Scaling & Monitoring**
+- Goal: Add logging, metrics, CI/CD pipelines  
+- Daily checkpoints:  
+  - Setup Winston/Bunyan logging  
+  - Prometheus + Grafana metrics  
+  - GitHub Actions CI/CD  
+  - Reflection in `project.md`  
+
+---
+
+### Week 11–12: **Capstone Project**
+- Goal: Combine frontend, backend, DevOps, AI into one cohesive app  
+- Daily checkpoints:  
+  - Integrate all modules  
+  - Deploy live  
+  - Document architecture in `project.md`  
+  - Share repo + write reflection blog  
+
+---
+
+## 🚀 Milestone Projects
+- **Portfolio Website** — Next.js + Tailwind, deployed on Vercel  
+- **School Procurement Platform** — Full-stack app with PostgreSQL, Docker VPS  
+- **Hackathon AI App** — Multi-agent orchestration, sustainability focus  
+- **Cloud Infra Setup** — Terraform-managed GCP HA VPN gateways  
+
+---
+
+## 📈 Reflection & Growth
+- Document learnings after each sprint in `project.md`  
+- Share progress publicly (GitHub, roadmap.sh)  
+- Review challenges (API rate limits, Docker issues)  
+- Iterate roadmap quarterly  
+
+---
+
+This file is now **fully compiled**: high-level roadmap, weekly sprints, daily checkpoints, repo layout, and milestone projects — ready to feed into OpenCode as your dev workflow blueprint.
