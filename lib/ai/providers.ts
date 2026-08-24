@@ -18,11 +18,13 @@ export function createProvider(): ProviderResult {
   const groqProvider = createOpenAI({
     apiKey: groqApiKey,
     baseURL: "https://api.groq.com/openai/v1",
+    compatibility: "strict",
   });
 
   const openRouterProvider = createOpenAI({
     apiKey: openRouterApiKey,
     baseURL: "https://openrouter.ai/api/v1",
+    compatibility: "strict",
     headers: {
       "HTTP-Referer": "https://hackathon-ai-assistant.vercel.app",
       "X-Title": "Hackathon AI Assistant",
