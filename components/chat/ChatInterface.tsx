@@ -67,7 +67,7 @@ export function ChatInterface() {
       <header className="border-b border-border p-4 flex items-center justify-between bg-background">
         <div>
           <h1 className="text-lg font-semibold text-foreground">
-            Hackathon AI Assistant
+            PeakyBlindr — Hackathon AI
           </h1>
           <p className="text-xs text-muted-foreground">
             Your AI co-pilot for hackathon preparation
